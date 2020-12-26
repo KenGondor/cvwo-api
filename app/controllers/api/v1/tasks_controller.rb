@@ -43,6 +43,6 @@ class Api::V1::TasksController < ApplicationController
   def task_params
     Rails.logger.debug params.inspect
 
-    params.permit(:name, :start, :due, :priority, :description)
+    params.permit(:name, :start, :due, :priority, :description, :completed, :tag)
   end
 end
