@@ -9,7 +9,7 @@ Task.create(name: "Bush Whack Project", start: "2020-11-01", due: "2020-12-01", 
 Task.create(name: "Wintery Bay Project", start: "2020-12-30", due: "2021-01-04", priority: 3, completed: true, tag: "hardcode") #completed
 
 def dice
-    return 1 + prng.rand(6)
+    return 1 + rand(6)
 end
 
 10.times do
