@@ -15,3 +15,5 @@ The backend api url domain is https://cvwo-rails-api.herokuapp.com/. The main HT
 * POST new tasks: api/v1/tasks
 * PUT updated task: api/v1/tasks/:id
 * DELETE task: api/v1/tasks/:id
+
+The backend rails was done with the Rails::API. The backend repository is separated from the frontend repository for deployment convenience and better separation of concerns.
